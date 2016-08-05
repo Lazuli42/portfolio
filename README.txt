@@ -12,6 +12,8 @@ _{A web portfolio for Zachary Baum, Epicodus student.}_
 
 * _use the link provided to view the portfolio on github pages._
 
+https://lazuli42.github.io/portfolio/
+
 *-or-*
 
 * _download file from github/_
