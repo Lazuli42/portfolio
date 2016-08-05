@@ -1,13 +1,69 @@
 body {
-  background: #ffe6ff; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#ffe6ff, #ffe6ff,); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#ffe6ff, #ffe6ff,); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#ffe6ff, #ffe6ff,); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#ffe6ff, #ff80ff,); /* Standard syntax */
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white, #ffe6ff,); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #ffe6ff,); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #ffe6ff,); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #ffe6ff); /* Standard syntax */
+  background-blend-mode: hard-light;
 }
 
 img {
   width: 100%;
   border: 5px solid #bfbfbf;
   border-radius: 1px;
+}
+
+#zach {
+max-width: 300px;
+
+}
+
+.glyphicon {
+  display: inline-block;
+  width: 90%;
+  font-size: 4em;
+  text-align: center;
+}
+
+.about {
+  background-color: #eae1ea;
+}
+
+@media screen and (min-width: 992px) {
+  .row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  }
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.col-sm-12 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e6f7ff;
+  border: 5px solid #e6e6e6;
+  border-radius: 2px;
+  height: 100%;
+}
+
+.col-md-12 {
+  padding-top: 20px;
+  background-color: white;
+  border: 5px solid #e6e6e6;
+  border-radius: 2px;
+  height: 100%;
+}
+
+@media screen and (min-width 991px)
+.col-md-12 {margin-bottom: 10px; }
 }
