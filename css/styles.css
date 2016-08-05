@@ -1,0 +1,13 @@
+body {
+  background: #ffe6ff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ffe6ff, #ffe6ff,); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffe6ff, #ffe6ff,); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffe6ff, #ffe6ff,); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffe6ff, #ff80ff,); /* Standard syntax */
+}
+
+img {
+  width: 100%;
+  border: 5px solid #bfbfbf;
+  border-radius: 1px;
+}
